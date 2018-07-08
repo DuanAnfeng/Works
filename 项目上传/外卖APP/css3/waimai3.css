@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border:0;*/
+    box-sizing: border-box;
+    list-style: none;
+
+}
+header .first{
+    width: 7.6rem;
+    height: 13rem;
+    background: aqua;
+}
+header .first img{
+    width: 7.6rem;
+    height: 100%;
+}
+header .first .last{
+    width: 6.12rem;
+    height: 6.64rem;
+    background: white;
+    position:fixed;
+    top: 4.19rem;
+    left: 0.7rem;
+}
+header .first .last img{
+    width: 6.11rem;
+    height: 4.26rem;
+}
+header .first .last p{
+    font-size: 0.02rem;
+    color: white;
+    margin-left: 0.7rem;
+    margin-top: -1rem;
+}
+header .first .last h6{
+    font-size: 0.3rem;
+    margin-left: 0.7rem;
+    margin-top: 0.6rem;
+}
+header .first .last h5{
+    font-size: 0.2rem;
+    margin-left: 0.7rem;
+    margin-top: 0.1rem;
+}
+header .first .last h2{
+    font-size: 0.34rem;
+    color: #30e2e6;
+    margin-left: 0.7rem;
+    margin-top: 0.2rem;
+}

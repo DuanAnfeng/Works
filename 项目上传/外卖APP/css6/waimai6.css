@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border:0;*/
+    box-sizing: border-box;
+    list-style: none;
+
+}
+header .foot{
+    width: 3.22rem;
+    height: 2.22rem;
+    /*background: #04b7c1;*/
+    border-radius: 50%;
+    margin: 1.5rem 2.1rem;
+}
+header .foot img{
+    width: 3.22rem;
+    height: 3.22rem;
+}
+.container{
+    width: 3.44rem;
+    height: 1.69rem;
+    /*background: #5bc0de;*/
+    margin-left: 2.1rem;
+}
+.container img{
+    width: 3.44rem;
+    height: 1.69rem;
+}
+.from{
+    width: 5.87rem;
+    height: 3.86rem;
+    background:#e3e3e3;
+    margin-top: 0.5rem;
+    margin-left: 0.88rem;
+}
+.from .form-group{
+    font-size: 0.18rem;
+ }
+/*.from .back{*/
+    /*margin-top: 0.15rem;*/
+/*}*/
+.from .work{
+    margin-top: 0.65rem;
+}
+.from .come{
+    margin-top: 0.85rem;
+}
+.from .biu{
+    width: 1.5rem;
+    height: 0.5rem;
+    background: #5bc0de;
+    float: left;
+    margin-left: 4rem;
+    margin-top: -0.4rem;
+    border-radius: 10%;
+}
+.from .biu a{
+    /*display: none;*/
+    font-size: 0.18rem;
+    color: white;
+    /*margin-top: -0.15rem;*/
+    display: block;
+    margin-top: 0.06rem;
+    margin-left: 0.18rem;
+}
+.folt{
+    width: 100%;
+    height: 1.76rem;
+    /*background:blue;*/
+}
+.folt img{
+    width: 4.4rem;
+    height: 1.58rem;
+    display: block;
+    margin-left: 1.5rem;
+    margin-top: 0.2rem;
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border:0;*/
+    box-sizing: border-box;
+    list-style: none;
+
+}
+header .font{
+    width: 100%;
+    height: 2.64rem;
+    background: #09c1cc;
+}
+header .font .two{
+    width: 100%;
+    height: 0.55rem;
+    background: #31dbe6;
+}
+header .font .two .three{
+    width:0.28rem;
+    height: 0.55rem;
+    /*background: crimson;*/
+    margin-left: 0.27rem;
+}
+header .font .two .four{
+    width: 0.59rem;
+    height: 0.31rem;
+    /*background: orange;*/
+    float: left;
+    margin-top: -0.4rem;
+    margin-left: 6.7rem;
+}
+header .font .two .three img{
+    width: 0.17rem;
+    height: 0.33rem;
+    margin-bottom: 0.6rem;
+    margin-left: 0.07rem;
+}
+header .font .two .four img{
+    width: 0.5rem;
+    height: 0.3rem;
+    margin-bottom: 1.38rem;
+    margin-left: 0.04rem;
+}
+header .container{
+    width: 2.73rem;
+    height: 0.5rem;
+    /*background: #3c763d;*/
+    margin-left: 0.55rem;
+    margin-top: 0.25rem;
+}
+header .container h3{
+    font-size: 0.3rem;
+    color: white;
+}
+.money{
+    width: 6.42rem;
+    height: 1.34rem;
+    background: #ffffff;
+    border-radius: 11%;
+    position: fixed;
+    top: 1.91rem;
+    left: 0.5rem;
+}
+.money:hover{
+    box-shadow:0 15px 30px rgba(0,0,0,0.5);
+}
+.money img{
+    width: 0.67rem;
+    height: 0.67rem;
+    display: block;
+    float: left;
+    margin:0.35rem 0.15rem;
+}
+.money h2{
+    display: block;
+    font-size: 0.38rem;
+    float: left;
+    margin-top: 0.4rem;
+    margin-left: 0.15rem;
+}
+.money h3{
+    display: block;
+    font-size: 0.32rem;
+    float: left;
+    margin-top: 0.45rem;
+    margin-left: 0.55rem;
+    color: #09c1cc;
+}
+.bank{
+    width: 5.9rem;
+    height: 3.24rem;
+    /*background: black;*/
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+}
+.bank img{
+    width: 100%;
+    height: 3.24rem;
+}
+.poss{
+    width: 6rem;
+    height: 1.70rem;
+    background: #2f2f2f;
+    margin: 0.2rem 0.8rem;
+}
+.poss img{
+    width: 6rem;
+    height: 1.7rem;
+    /*margin-left: 0.1rem;*/
+
+}
+.folt{
+    width: 100%;
+    height: 4.22rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #5bc0de;
+}
+.folt img{
+    width: 100%;
+    height: 4.22rem;
+}

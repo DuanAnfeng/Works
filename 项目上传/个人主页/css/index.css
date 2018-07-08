@@ -1,0 +1,332 @@
+/*公共 移动端 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #203036;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+header .main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+header .main .title{
+    color: darkorange;
+    font-size: 30px;
+    line-height: 60px;
+}
+header .main .nav a{
+    color: white;
+    font-size: 24px;
+    line-height: 60px;
+    padding-right: 10px;
+}
+header .main .nav .link{
+    display: none;
+}
+header .main .nav a.list {
+    display: inline;
+}
+.banner{
+    width: 100%;
+    height: 660px;
+    background:url("../img/timg.jpg")no-repeat center/cover;
+    /*当屏幕滚动的时候背景图片如何动：不动-fixed ,跟着动scroll。*/
+    background-attachment: fixed;
+    margin-top: 0;
+    padding: 120px 0;
+
+}
+.banner .box{
+    height: 295px;
+    background:rgba(0,0,0,0.5) ;
+}
+.banner .box p.intro{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 2;
+    text-align: center;
+    color: pink;
+}
+.banner .box h2{
+    padding: 11px 0;
+    border-top: 7px double white;
+    border-bottom: 7px double white;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 0.5;
+}
+.banner .box h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: white;
+}
+.banner .box p{
+    font-size: 10px;
+    font-weight: 400;
+}
+.banner .box p a.link-button{
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 15px 91px;
+    margin-top: 20px;
+    line-height: 6;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+.banner .box p a.link-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+.some{
+    height: 200px;
+    width: 100%;
+    /*background: darkorange;*/
+}
+.banner .container .some-notes {
+    padding: 40px 0;
+    float: left;
+}
+.some .tittle h2{
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+    color: #012999;
+    text-transform: uppercase;
+    padding-top: 22px;
+}
+.some .desc p{
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+.feature{
+    width: 100%;
+    background: #696565;
+    padding-top: 90px;
+
+}
+.feature .tittle{
+    text-align: center;
+    color: #393a3c;
+    font-size: 45px;
+    margin-bottom:30px;
+    margin-top:30px;
+    /*line-height: 500;*/
+}
+/*.features .container .tittle::after {*/
+    /*display: block;*/
+    /*margin: 17px auto 0px;*/
+    /*width: 80px;*/
+    /*height: 1px;*/
+    /*background: #FFF none repeat scroll 0% 0%;*/
+    /*content: "";*/
+/*}*/
+.glyphicon{
+    line-height: 3;
+    font-size: 38px;
+    color: white;
+
+}
+.row{
+    margin: 17px 5px;
+}
+.fluid{
+    width: 100%;
+    /*background: darkorange;*/
+    padding-top: 45px;
+}
+.fluid .list{
+    padding: 38px 0;
+}
+.fluid .work-text{
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    color: #012999;
+}
+.fluid .container .work-space{
+    margin: 20px 0px;
+}
+.fluid .container .work-space .lost{
+    width: 100%;
+    height: 247px;
+    background: pink;
+    float: left;
+    display: block;
+}
+.fluid .container .work-space .lost img{
+    width: 100%;
+    height: 200px;
+}
+/*.fluid .container .work-space .featured-img{*/
+    /*width: 100%;*/
+/*}*/
+/*.fluid .container .work-space .featured-img img{*/
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*float: left;*/
+    /*position: relative;*/
+/*}*/
+/*.fluid .container .work-space .image-hover{*/
+    /*!*display: none;*!*/
+    /*!*position: absolute;*!*/
+    /*!*background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.5);*!*/
+    /*text-align: center;*/
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*float: left;*/
+/*}*/
+.work-space a h3{
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 15px;
+    /*float: left;*/
+    width: 100%;
+    font-weight: 600;
+    background: #8ab839;
+    color: #fff;
+    margin: 0px;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+.countspace{
+    width: 100%;
+    background: #212a3f;
+    padding-top: 15px;
+}
+.countbg{
+    background: rgba(33, 42, 63, 1);
+    /*padding: 80px 0px;*/
+    width: 100%;
+    float: left;
+}
+.counter-item{
+    margin-top: 30px;
+}
+.counter-item i{
+    font-size: 40px;
+    color: #8ab839;
+    text-align: center;
+}
+.counter-item h5{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.form-inline{
+    text-align: center;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media screen and (min-width:735px){
+    header .main .nav a.link{
+        display: inline;
+    }
+    header .main .nav a.list{
+        display: none;
+    }
+    .glyphicon{
+        padding: 0 11px;
+    }
+    .counter-item i{
+        text-align: center;
+    }
+    .counter-item h5{
+        text-align: center;
+    }
+
+    /*.feature .container .con ul img{*/
+
+
+    /*}*/
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media screen and(min-width:992px){
+
+    /*header .mai .nav a.list{*/
+        /*display: none;*/
+    /*}*/
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media screen and(min-width:1200px){
+
+}
+.icon-text h4{
+    color: #2e2e2e;
+    font-weight: 400;
+    font-size: 32px;
+}
+.icon-text p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #2E2E2E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 小屏幕（平板，大于等于 768px） */
+@media scree and(min-width:768px){
+    header .main .nav .link{
+        display: inline;
+    }
+    header .main .nav .list{
+        display: none;
+    }
+
+
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media scree and(min-width:992px){
+    /*header .main .nav a.link {*/
+        /*display: inline;*/
+    /*}*/
+    /*header .main .nav a.list {*/
+        /*display: none;*/
+    /*}*/
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media scree and(min-width:1200px) {
+
+}

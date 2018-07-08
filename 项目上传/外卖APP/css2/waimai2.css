@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*boeder:0;*/
+    box-sizing: border-box;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+header .first{
+    width: 100%;
+    height: 2.59rem;
+    background: #31dbe6;
+    position:fixed;
+    top: 0;
+    left: 0;
+    /*overflow: hidden;*/
+}
+header .last{
+    width: 100%;
+    height: 1rem;
+    /*background: black;*/
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+header .last img {
+    width: 100%;
+    height: 1rem;
+}
+header .first .two{
+    width: 100%;
+    height: 0.55rem;
+    background: #31dbe6;
+}
+header .first .two .three{
+    width:0.28rem;
+    height: 0.55rem;
+    /*background: crimson;*/
+    margin-left: 0.27rem;
+}
+header .first .two .four{
+    width: 0.59rem;
+    height: 0.31rem;
+    /*background: orange;*/
+    float: left;
+    margin-top: -0.4rem;
+    margin-left: 6.7rem;
+}
+header .first .two .three img{
+    width: 0.17rem;
+    height: 0.33rem;
+    margin-bottom: 0.6rem;
+    margin-left: 0.07rem;
+}
+header .first .two .four img{
+    width: 0.5rem;
+    height: 0.3rem;
+    margin-bottom: 1.38rem;
+    margin-left: 0.04rem;
+}
+header .first .five{
+    width: 5.07rem;
+    height:1.47rem ;
+    /*background: darkgoldenrod;*/
+    margin-left: 1.1rem;
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+header .first .five .siv{
+    width: 1.23rem;
+    height: 1.23rem;
+    background: white;
+    margin-top: 0.12rem;
+}
+header .first .five .seven{
+    width: 3.6rem;
+    height: 1.51rem;
+    /*background: darkred;*/
+    float: left;
+    margin-left: 1.5rem;
+    margin-top: -1.3rem;
+}
+header .first .five .seven img{
+    width: 3.25rem;
+    height: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+header .first .five .seven p{
+    font-size: 0.22rem;
+    color: #fff;
+    margin-top: -1.0rem;
+}
+header .first .five .seven .eight{
+    height: 0.7rem;
+    width: 2.11rem;
+}
+header .nine{
+    width: 100%;
+    height: 0.36rem;
+    top:2.59rem;
+    left: 0;
+    position: fixed;
+    /*background: orange;*/
+}
+header .nine img{
+    width: 100%;
+    height: 0.36rem;
+    margin-bottom: 0.69rem;
+}
+header .ten{
+    width: 100%;
+    height: 0.71rem;
+    /*background: orange;*/
+    margin-top: 2.9rem;
+}
+header .ten img{
+    width: 100%;
+    height: 0.5rem;
+    margin-bottom: 0.34rem;
+}
+header .eleven{
+    width: 100%;
+    /*height: 8.8rem;*/
+    background: aqua;
+
+}
+header .eleven .left{
+    width: 2.0rem;
+    /*height: 8.18rem;*/
+    background: #f2f2f2;
+    top:;
+    left: 0;
+    float: left;
+    position: fixed;
+}
+header .eleven .left li{
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 1.02rem;
+}
+/*header .eleven .left ol{*/
+    /*list-style: none;*/
+/*}*/
+/*header .eleven .left ol a{*/
+    /*margin: 0;*/
+    /*border: 0;*/
+    /*padding: 0;*/
+    /*box-sizing: border-box;*/
+    /*text-decoration: none;*/
+    /**/
+/*}*/
+/*header .eleven .left ol li{*/
+    /*height: 1.1rem;*/
+    /*line-height: 1.1rem;*/
+/*}*/
+/*header .eleven .left ol span{*/
+    /*font-size: 0.3rem;*/
+    /*color: white;*/
+    /*margin-left: 0.4rem;*/
+/*}*/
+header .eleven .right{
+    width: 5.11rem;
+    height: 2.08rem;
+    background: white;
+    float: left;
+    margin-left: 2.2rem;
+    margin-top: 0.05rem;
+    box-shadow: 0 0.1rem 0.1rem 0.1rem rgba(0 ,0, 0, 0.2);
+}
+header .eleven .right .twelve{
+    width: 1.17rem;
+    height: 1.7rem;
+    /*background: orange;*/
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    float: left;
+}
+header .eleven .right .twelve img{
+    width: 1.17rem;
+    height: 1.7rem;
+}
+header .eleven .right .thirteen{
+    width: 3.26rem;
+    height: 1.61rem;
+    /*background: blue;*/
+    float: left;
+    margin-left: 1.6rem;
+    margin-top: -1.7rem;
+}
+header .eleven .right .thirteen h6{
+  font-size: 0.3rem;
+    color: #000;
+}
+header .eleven .right .thirteen p{
+    font-size: 0.18rem;
+    color: #939393;
+    margin-top: -1.3rem;
+}
+/*header .eleven .right .thirteen .tp-a{*/
+    /*font-size: 0.18rem*/
+    /*color: #939393;*/
+    /*!*margin-top: -0.9rem;*!*/
+/*}*/
+header .eleven .right .thirteen img{
+    width: 1.38rem;
+    height: 0.28rem;
+    margin-bottom: 1.2rem;
+    /*overflow: hidden;*/
+}
+/*header .eleven .right .thirteen b{*/
+    /*font-size: 0.18rem;*/
+}
+header .eleven .right .thirteen .tp-b{
+    margin-top: 0.2rem;
+
+}
+/*header .eleven .right .thirteen  img er{*/
+    /*width: 1.75rem;*/
+    /*height: 0.58rem;*/
+/*}*/
+/*header .eleven .right .thirteen a{*/
+    /*font-size:0.9rem;*/
+    /*display: block;*/
+}

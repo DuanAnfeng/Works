@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border:0;*/
+    box-sizing: border-box;
+    list-style: none;
+
+}
+header .foot{
+    width: 3.22rem;
+    height: 2.22rem;
+    /*background: #04b7c1;*/
+    border-radius: 50%;
+    margin: 1.5rem 2.1rem;
+}
+header .foot img{
+    width: 3.22rem;
+    height: 3.22rem;
+}
+.container{
+    width: 3.44rem;
+    height: 1.69rem;
+    /*background: #5bc0de;*/
+    margin-left: 2.1rem;
+}
+.container img{
+    width: 3.44rem;
+    height: 1.69rem;
+}
+.from{
+    width: 4.87rem;
+    height: 1.86rem;
+    background:#e3e3e3;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+.from .form-group{
+    font-size: 0.18rem;
+    text-align: center;
+}
+/*.from .back{*/
+/*margin-top: 0.15rem;*/
+/*}*/
+.from .work{
+    margin-top: 0.65rem;
+    text-align: center;
+}
+.from h3{
+    font-size: 0.24rem;
+    margin-left: 3.1rem;
+    margin-top: 0.15rem;
+    color: #ff8d7b;
+}
+.last{
+    width: 3.95rem;
+    height: 0.52rem;
+    background: #d9d9d9;
+    margin-top: 0.5rem;
+    margin-left: 1.72rem;
+}
+.last h5{
+    font-size: 0.36rem;
+    color: white;
+    text-align: center;
+}
+.flot{
+   width: 6.32rem;
+    height: 2rem;
+    /*background: #f0ad4e;*/
+    margin-left: 0.83rem;
+    margin-top: 0.54rem;
+
+}
+.flot img{
+    width: 6.32rem;
+    height: 1.5rem;
+    margin-top: 0.1rem;
+}

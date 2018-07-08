@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 44px;
+    background:rgba(0,0,0,0.8);
+    padding: 0 188px;
+    position: fixed;
+    top:0;
+    left: 0;
+
+}
+
+header ul{
+    width: 100%;
+    height: 100%;
+    /*background: orange;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+header ul li{
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+
+}
+header ul .search i{
+    color:white;
+}
+/*大屏*/
+header ul li.list{
+    display: none;
+}
+
+.banner{
+    width: 100%;
+    height: 580px;
+    background: #fafafa url("https://www.apple.com/v/home/dr/images/heroes/iphone-x/iphone_x_large.jpg")
+no-repeat center bottom/1068px 337px;
+    margin-top: 44px;
+    overflow: hidden;
+}
+.banner h1{
+    margin-top: 90px;
+    text-align: center;
+}
+.banner h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.banner p{
+    margin-top: 20px;
+    text-align: center;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner span{
+    color: #5565BA;
+}
+.banner a:hover{
+    text-decoration: underline;
+}
+.iphone{
+    width: 100%;
+    height: 580px ;
+    background: #f9f0eb url("https://www.apple.com/v/home/dr/images/heroes/iphone-8/iphone_8_large.jpg") no-repeat
+ center bottom/537px 338px;
+    margin-top: 14px;
+    overflow: hidden;
+
+}
+.iphone h1{
+    margin-top: 55px;
+    text-align: center;
+}
+.iphone h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.iphone p{
+    margin-top: 20px;
+    text-align: center;
+}
+.iphone a{
+    text-decoration: none;
+}
+.iphone span{
+    color: #5565BA;
+}
+.iphone a:hover{
+    text-decoration: underline;
+}
+.pad{
+    width: 100%;
+    height: 580px ;
+    background: #f5f5f5 url("https://www.apple.com/v/home/dr/images/heroes/ipad/ipad_large.jpg") no-repeat
+    center bottom/930px 355px;
+    margin-top: 14px;
+    overflow: hidden;
+}
+.pad h1{
+    margin-top: 55px;
+    text-align: center;
+}
+.pad h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.pad p{
+    margin-top: 20px;
+    text-align: center;
+}
+.pad a{
+    text-decoration: none;
+}
+.pad span{
+    color: #5565BA;
+}
+.pad a:hover{
+    text-decoration: underline;
+}
+.list{
+    overflow: hidden;
+}
+.list .watch{
+    width: 50%;
+    height: 584px;
+    background: #eeeeee url("https://www.apple.com/v/home/dr/images/promos/watch_series_3_large.jpg")
+    no-repeat center bottom/447px 395px;
+    float: left;
+    border: 12px solid #fff;
+    border-bottom-width: 0;
+
+}
+.list .watch img {
+    display: block;
+    margin: 55px auto;
+}
+.list .watch h5 {
+    margin-top: -43px;
+    text-align: center;
+    font-size: 16px;
+}
+.list .watch p {
+    margin-left: 251px;
+}
+.list .shoot{
+    width: 50%;
+    height: 584px;
+    background: #b94e3c url("https://www.apple.com/v/home/dr/images/promos/how_to_shoot_large.jpg")
+    no-repeat center bottom/1262px 580px;
+    float: left;
+    border: 12px solid #fff;
+    border-left-width: 0;
+    border-bottom-width: 0;
+
+}
+.list .shoot h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 64px;
+    color: white;
+}
+.list .shoot h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.upper .music{
+    width: 50%;
+    height: 584px;
+    background: #eeeeee url("https://www.apple.com/v/home/dr/images/promos/drake_large.jpg")
+    no-repeat center bottom/1262px 580px;
+    float: left;
+    border: 12px solid #fff;
+    border-bottom-width: 0;
+
+}
+/*.upper .music img{*/
+.upper .music img {
+    margin-top:33px;
+    margin-left: 205px;
+}
+.upper .mac{
+    width: 50%;
+    height: 584px;
+    background: #b94e3c url("https://www.apple.com/v/home/dr/images/promos/behind_the_mac_large.jpg")
+    no-repeat center bottom/1262px 580px;
+    float: left;
+    border: 12px solid #fff;
+    border-left-width: 0;
+    border-bottom-width: 0;
+
+}
+.upper .mac h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 44px;
+    color: white;
+}
+.upper .mac p {
+    margin-left: 207px;
+    color: white;
+}
+.upper .mac a {
+    color: white;
+}
+.lower .air{
+    width: 50%;
+    height: 584px;
+    background: #fafafa url("https://www.apple.com/v/home/dr/images/promos/airpods_large.jpg")
+    no-repeat center bottom/385px 304px;
+    float: left;
+    border: 12px solid #fff;
+    border-bottom-width: 0;
+
+}
+.lower .air h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+.lower .air h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.lower .air p {
+    margin-left: 251px;
+}
+.lower .pod{
+    width: 50%;
+    height: 584px;
+    background: #fafafa url("https://www.apple.com/v/home/dr/images/promos/homepod_large.jpg")
+    no-repeat center bottom/382px 396px;
+    float: left;
+    border: 12px solid #fff;
+    border-left-width: 0;
+    border-bottom-width: 0;
+
+}
+.lower .pod h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+.lower .pod h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.lower .pod p {
+    margin-left: 251px;
+}
+.footer{
+    width: 100%;
+    height: 428px;
+    background: #f2f2f2;
+    margin-top: 1182px;
+    padding: 40px 180px 0;
+}
+.footer dl{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    /*background: crimson;*/
+}
+.footer dl dt{
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+.footer dl dd{
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.footer dl dt span{
+    display: none;
+}
+.footer dl dd a{
+    text-decoration: none;
+    color: #333;
+}
+.footer dl dd a:hover{
+    text-decoration: underline;
+}
+.footer .left{
+    width: 980px;
+    height: 23px;
+    /*background: red;*/
+    margin-top: 320px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.footer .left p{
+    font-size: 12px;
+    color: #919191;
+}
+.footer .right{
+    width: 100%;
+    height: 23px;
+    /*background: blueviolet;*/
+}
+.footer .right .one{
+    width: 275px;
+    height: 23px;
+    /*background: orange;*/
+    float: left;
+}
+.footer .right .one p{
+    font-size: 12px;
+    color: #919191;
+}
+.footer .right .tow{
+    width: 396px;
+    height: 23px;
+    /*background: chartreuse;*/
+    float: left;
+    margin-left: 34px;
+}
+.footer .right .tow a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #595559;
+}
+.footer .right .tow span{
+    font-size: 12px;
+}
+.footer .right .tow a:hover{
+    text-decoration: underline;
+}
+.footer .right .three{
+    width: 100px;
+    height: 23px;
+    /*background: aqua;*/
+    float: left;
+    margin-left: 163px;
+}
+.footer .right .three span{
+    font-size: 12px;
+}
+/*中屏*/
+@media screen and (max-width:768px){
+    header{
+        padding: 0 15px;
+    }
+    .banner{
+        background: #fafafa url("https://www.apple.com/v/home/dr/images/heroes/iphone-x/iphone_x_medium.jpg")
+        no-repeat center bottom/736px 336px;
+    }
+    .iphone{
+        background: #f9f0eb url("https://www.apple.com/v/home/dr/images/heroes/iphone-8/iphone_8_medium.jpg") no-repeat
+        center bottom/527px 373px;
+    }
+    .pad{
+        background: #f5f5f5 url("https://www.apple.com/v/home/dr/images/heroes/ipad/ipad_medium.jpg")
+        no-repeat center bottom/650px 325px;;
+    }
+
+}
+
+/*小屏*/
+@media screen and (max-width:735px){
+    header ul li.list{
+        display: block;
+    }
+    header ul li.text{
+        display: none;
+    }
+    .banner{
+        background: #fafafa url("https://www.apple.com/v/home/dr/images/heroes/iphone-x/iphone_x_small.jpg")
+        no-repeat center bottom/320px 353px;
+    }
+    .iphone{
+        background: #f9f0eb url("https://www.apple.com/v/home/dr/images/heroes/iphone-8/iphone_8_small.jpg")
+        no-repeat center bottom/320px 460px;
+    }
+    .pad{
+        background: #f5f5f5 url("https://www.apple.com/v/home/dr/images/heroes/ipad/ipad_small.jpg")
+        no-repeat center bottom/228px 340px;;
+    }
+    .list .watch{
+        width: 100%;
+        height: 500px;
+        background: #eeeeee url("https://www.apple.com/v/home/dr/images/promos/watch_series_3_small.jpg")
+        no-repeat center bottom/321px 346px;
+        float: left;
+        border: 12px solid #fff;
+        border-left-width: 0;
+        border-right-width: 0;
+
+    }
+    .list .shoot{
+        width: 100%;
+        height: 500px;
+        background: #b94e3c url("https://www.apple.com/v/home/dr/images/promos/how_to_shoot_small.jpg")
+        no-repeat center bottom/736px 548px;
+        float: left;
+        border: 12px solid #fff;
+        border-left-width: 0;
+        border-right-width: 0;
+
+    }
+    .upper .mac{
+        width: 100%;
+        height: 584px;
+        background: #ffffff url("https://www.apple.com/v/home/dr/images/promos/behind_the_mac_small.jpg")
+        no-repeat center bottom/736px 548px;
+        float: left;
+        border: 12px solid #fff;
+        border-left-width: 0;
+        border-bottom-width: 0;
+
+    }
+    .upper .music{
+        width: 100%;
+        height: 584px;
+        background: #ffffff url("https://www.apple.com/v/home/dr/images/promos/drake_small.jpg")
+        no-repeat center bottom/736px 548px;
+        float: left;
+        border: 12px solid #fff;
+        border-bottom-width: 0;
+
+    }
+    .lower .air{
+        width: 100%;
+        height: 584px;
+        background: #fafafa url("https://www.apple.com/v/home/dr/images/promos/airpods_small.jpg")
+        no-repeat center bottom/244px 193px;
+        float: left;
+        border: 12px solid #fff;
+        border-bottom-width: 0;
+
+    }
+    .lower .pod{
+        width: 100%;
+        height: 584px;
+        background: #fafafa url("https://www.apple.com/v/home/dr/images/promos/homepod_small.jpg")
+        no-repeat center bottom/331px 341px;
+        float: left;
+        border: 12px solid #fff;
+        border-left-width: 0;
+        border-bottom-width: 0;
+
+    }
+    .footer{
+        padding: 30px 60px 0;
+        margin-top: 2300px;
+        height: 510px;
+
+
+    }
+
+    .footer dl{
+        width: 100%;
+    }
+    .footer dl dd{
+        display: none;
+    }
+    .footer dl dt{
+        height: 37px;
+        border-bottom: 1px solid #000;
+        line-height: 37px;
+        cursor: pointer;
+
+    }
+    .footer dl dt span{
+        display: inline;
+        float: right;
+    }
+    .footer .left {
+        width: 66%;
+        height: 23px;
+        /*background: red;*/
+        /*margin-top: 400px;*/
+        margin-bottom: 31px;
+
+        /*border-bottom: 1px solid #d6d6d6;*/
+    }
+    .footer .right .one{
+    width: 275px;
+    height: 23px;
+    /*background: orange;*/
+    float: left;
+    }
+    .footer .right .one {
+        margin-top: 15px;
+
+    }
+    .footer .right .tow {
+        margin-left: -273px;
+        margin-top: 35px;
+        width: 227px;
+
+    }
+    .footer .right .three {
+        margin-left: -276px;
+        margin-top: -13px;
+    }
+    /*.footer .right .three {*/
+        /*width: 100px;*/
+        /*height: 23px;*/
+        /*!*background: aqua;*!*/
+        /*float: left;*/
+        /*margin-left: 0px;*/
+        /*margin-top: 51px;*/
+    /*}*/
+
+    /*}*/
+    /*.footer .right {*/
+        /*width: 980px;*/
+        /*height: 23px;*/
+        /*!*background: blueviolet;*!*/
+        /*overflow: hidden;*/
+    /*}*/
+
+    /*.footer .right .tow {*/
+        /*width: 279px;*/
+        /*height: 23px;*/
+        /*!*background: chartreuse;*!*/
+        /*float: left;*/
+        /*!*margin-left: 34px;*!*/
+        /*margin-left: 0;*/
+    /*}*/
+
+}
+
+
+
+
+
+}
